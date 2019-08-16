@@ -19,6 +19,7 @@ form.addEventListener('submit', e => {
 //   console.log(score);
 
 // show result on page
+scrollTo(0, 0); 
 result.querySelector('span').textContent = `${score}%`;
 result.classList.remove('d-none');
 
@@ -35,4 +36,17 @@ result.classList.remove('d-none');
 
 // alert('hello');
 // window.alert('hello');
+
+// setTimeout(() => {
+//     alert('hello, Ninjas');
+// }, 3000);
+
+
+
+
+
+
+
+
+
 
