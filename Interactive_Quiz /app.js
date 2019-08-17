@@ -41,6 +41,14 @@ result.classList.remove('d-none');
 //     alert('hello, Ninjas');
 // }, 3000);
 
+let i = 0
+setInterval(() => {
+    console.log('hello');
+    i++;
+    if(i== 5){
+         
+    }
+}, 1000);
 
 
 
